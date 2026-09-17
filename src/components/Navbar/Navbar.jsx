@@ -1,64 +1,89 @@
 import { useState } from "react";
-import "./Navbar.css";
+import { Link } from "react-router-dom";
+
 import Logo from "../../assets/Logo-Rental-Mobil-Jogja.png";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
 
-  return (
-    <header className="navbar">
-      <div className="navbar-container">
+    return (
+        <header className="navbar">
+            <div className="navbar-container">
 
-        {/* Logo */}
-        <a href="/" className="navbar-logo" onClick={closeMenu}>
-          <img src={Logo} alt="Rental Mobil Jogja" />
-        </a>
+                {/* Logo */}
+                <Link
+                    to="/"
+                    className="navbar-logo"
+                    onClick={closeMenu}
+                >
+                    <img
+                        src={Logo}
+                        alt="Rental Mobil Jogja"
+                    />
+                </Link>
 
-        {/* Desktop Menu */}
-        <nav className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
-          <a href="#beranda" onClick={closeMenu}>
-            Beranda
-          </a>
+                {/* Desktop / Mobile Menu */}
+                <nav className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
 
-          <a href="#daftar-mobil" onClick={closeMenu}>
-            Daftar Mobil
-          </a>
+                    <Link
+                        to="/"
+                        onClick={closeMenu}
+                    >
+                        Beranda
+                    </Link>
 
-          <a href="#tentang-kami" onClick={closeMenu}>
-            Tentang Kami
-          </a>
+                    <Link
+                        to="/daftar-mobil"
+                        onClick={closeMenu}
+                    >
+                        Daftar Mobil
+                    </Link>
 
-          <a href="#faq" onClick={closeMenu}>
-            FAQ
-          </a>
+                    <Link
+                        to="/tentang-kami"
+                        onClick={closeMenu}
+                    >
+                        Tentang Kami
+                    </Link>
 
-          <a href="#kontak" onClick={closeMenu}>
-            Kontak
-          </a>
-        </nav>
+                    <Link
+                        to="/faq"
+                        onClick={closeMenu}
+                    >
+                        FAQ
+                    </Link>
 
-        {/* Hamburger */}
-        <button
-          className={`navbar-toggle ${isMenuOpen ? "active" : ""}`}
-          onClick={toggleMenu}
-          aria-label="Toggle navigation"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+                    <Link
+                        to="/kontak"
+                        onClick={closeMenu}
+                    >
+                        Kontak
+                    </Link>
 
-      </div>
-    </header>
-  );
+                </nav>
+
+                {/* Hamburger */}
+                <button
+                    className={`navbar-toggle ${isMenuOpen ? "active" : ""}`}
+                    onClick={toggleMenu}
+                    aria-label="Toggle navigation"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </header>
+    );
 };
 
 export default Navbar;
