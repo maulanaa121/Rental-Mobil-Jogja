@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import About from "../About/About";
+import VisiMisi from "../VisiMisi/VisiMisi";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <About/>
+            <VisiMisi/>
         </>
     );
 };
