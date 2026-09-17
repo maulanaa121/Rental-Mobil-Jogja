@@ -2,12 +2,12 @@ import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 
 const Home = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <Hero />
+        </>
+    );
 };
 
 export default Home;
