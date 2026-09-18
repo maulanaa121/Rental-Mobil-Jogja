@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import HeroDaftarMobil from '../HeroDaftarMobil/HeroDaftarMobil'
 import Keunggulan from '../Keunggulan/Keunggulan'
+import MobilUnggulan from '../MobilUnggulan/MobilUnggulan'
 
 const DaftarMobil = () => {
   return (
@@ -11,6 +12,7 @@ const DaftarMobil = () => {
         <HeroDaftarMobil/>
         <Keunggulan/>
         <Footer/>
+        <MobilUnggulan/>
     </div>
   )
 }
