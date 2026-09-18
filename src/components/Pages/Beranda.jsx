@@ -8,6 +8,7 @@ import Keunggulan from "../Beranda/Keunggulan";
 import MobilUnggulan from "../Beranda/MobilUnggulan";
 import Bersiaplah from "../Beranda/Bersiaplah";
 import Testimoni from "../Beranda/Testimoni";
+import Pengalaman from "../Beranda/Pengalaman";
 
 const Beranda = () => {
     return (
@@ -18,6 +19,7 @@ const Beranda = () => {
             <MobilUnggulan/>
             <Bersiaplah/>
             <Testimoni/>
+            <Pengalaman/>
             <Footer/>
         </>
     );

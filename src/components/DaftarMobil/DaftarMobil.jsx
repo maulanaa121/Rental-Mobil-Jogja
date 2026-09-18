@@ -6,7 +6,7 @@ import Keunggulan from '../Beranda/Keunggulan'
 import MobilUnggulan from '../Beranda/MobilUnggulan'
 import Bersiaplah from '../Beranda/Bersiaplah'
 import Testimoni from '../Beranda/Testimoni'
-import Pengalaman from '../Pengalaman/Pengalaman'
+import Pengalaman from '../Beranda/Pengalaman'
 
 const DaftarMobil = () => {
   return (
