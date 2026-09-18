@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import DaftarMobil from "./components/DaftarMobil/DaftarMobil";
+import DaftarMobil from "./components/Pages/DaftarMobil";
 import Beranda from "./components/Pages/Beranda";
 import TentangKami from "./components/Pages/TentangKami";
 
