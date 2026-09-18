@@ -5,6 +5,7 @@ import HeroDaftarMobil from '../HeroDaftarMobil/HeroDaftarMobil'
 import Keunggulan from '../Keunggulan/Keunggulan'
 import MobilUnggulan from '../MobilUnggulan/MobilUnggulan'
 import Bersiaplah from '../Bersiaplah/Bersiaplah'
+import Testimoni from '../Testimoni/Testimoni'
 
 const DaftarMobil = () => {
   return (
@@ -15,6 +16,8 @@ const DaftarMobil = () => {
         <Footer/>
         <MobilUnggulan/>
         <Bersiaplah/>
+        <Testimoni/>
+        <h1 className='pt-48'>kkjk</h1>
     </div>
   )
 }
