@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "../../assets/hero.png";
 
-const Hero = () => {
+const HeroTentangKami = () => {
     return (
         <section
             className="relative flex min-h-screen items-center justify-center bg-cover bg-center bg-no-repeat"
@@ -39,4 +39,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default HeroTentangKami;

@@ -1,5 +1,5 @@
 import Navbar from "../Navbar/Navbar";
-import Hero from "../Hero/Hero";
+import Hero from "../TentangKami/HeroTentangKami";
 import About from "../About/About";
 import VisiMisi from "../VisiMisi/VisiMisi";
 import Footer from "../Footer/Footer";
