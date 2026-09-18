@@ -19,6 +19,7 @@ const DaftarMobil = () => {
         <Bersiaplah/>
         <Testimoni/>
         <Pengalaman/>
+        <Footer/>
     </div>
   )
 }
