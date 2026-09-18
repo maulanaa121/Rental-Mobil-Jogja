@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import HeroDaftarMobil from '../HeroDaftarMobil/HeroDaftarMobil'
 import Keunggulan from '../Keunggulan/Keunggulan'
 import MobilUnggulan from '../MobilUnggulan/MobilUnggulan'
+import Bersiaplah from '../Bersiaplah/Bersiaplah'
 
 const DaftarMobil = () => {
   return (
@@ -13,6 +14,7 @@ const DaftarMobil = () => {
         <Keunggulan/>
         <Footer/>
         <MobilUnggulan/>
+        <Bersiaplah/>
     </div>
   )
 }
