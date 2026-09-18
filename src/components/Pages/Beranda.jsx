@@ -5,6 +5,7 @@ import VisiMisi from "../VisiMisi/VisiMisi";
 import Footer from "../Footer/Footer";
 import HeroBeranda from "../Beranda/HeroBeranda";
 import Keunggulan from "../Beranda/Keunggulan";
+import MobilUnggulan from "../Beranda/MobilUnggulan";
 
 const Beranda = () => {
     return (
@@ -12,6 +13,7 @@ const Beranda = () => {
             <Navbar />
             <HeroBeranda/>
             <Keunggulan/>
+            <MobilUnggulan/>
             <Footer/>
         </>
     );
