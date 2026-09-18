@@ -3,7 +3,7 @@ import React from "react";
 import HeroImage from "../../assets/hero-daftar-mobil.png";
 import Curve from "../../assets/curve.svg";
 
-const HeroDaftarMobil = () => {
+const HeroBeranda = () => {
     return (
         <section className="relative h-[500px] w-full overflow-hidden sm:h-[560px] lg:h-[850px]">
 
@@ -69,4 +69,4 @@ const HeroDaftarMobil = () => {
     );
 };
 
-export default HeroDaftarMobil;
+export default HeroBeranda;
