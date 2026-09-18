@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import HeroDaftarMobil from '../Beranda/HeroBeranda'
 import Keunggulan from '../Beranda/Keunggulan'
 import MobilUnggulan from '../Beranda/MobilUnggulan'
-import Bersiaplah from '../Bersiaplah/Bersiaplah'
+import Bersiaplah from '../Beranda/Bersiaplah'
 import Testimoni from '../Testimoni/Testimoni'
 import Pengalaman from '../Pengalaman/Pengalaman'
 

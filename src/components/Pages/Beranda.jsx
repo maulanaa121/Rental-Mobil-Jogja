@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer";
 import HeroBeranda from "../Beranda/HeroBeranda";
 import Keunggulan from "../Beranda/Keunggulan";
 import MobilUnggulan from "../Beranda/MobilUnggulan";
+import Bersiaplah from "../Beranda/Bersiaplah";
 
 const Beranda = () => {
     return (
@@ -14,6 +15,7 @@ const Beranda = () => {
             <HeroBeranda/>
             <Keunggulan/>
             <MobilUnggulan/>
+            <Bersiaplah/>
             <Footer/>
         </>
     );
