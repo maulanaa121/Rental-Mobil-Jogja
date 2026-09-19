@@ -9,8 +9,8 @@ const DaftarMobil = () => {
     <div>
         <Navbar/>
         <HeroDaftarMobil/>
-        <Footer/>
         <SectionDaftarMobil/>
+        <Footer/>
     </div>
   )
 }
