@@ -169,7 +169,7 @@ const KamiBantu = () => {
                             const isOpen = openIndex === index;
 
                             return (
-                                <div data-aos = "fade-zoom-in" data-aos-delay={200 + index * 200}
+                                <div data-aos = "fade-zoom-in" data-aos-delay={200 + index * 150}
                                     key={`${faq.category}-${faq.question}`}
                                     className="
                                         overflow-hidden
