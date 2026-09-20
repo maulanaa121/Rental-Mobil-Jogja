@@ -11,7 +11,7 @@ const Bersiaplah = () => {
                 {/* =========================
                     IMAGE MOBIL
                 ========================= */}
-                <div className="flex w-full justify-center lg:w-1/2 lg:justify-start">
+                <div className="flex w-full justify-center lg:w-1/2 lg:justify-start" data-aos="fade-right" data-aos-delay="250">
                     <img
                         src={MobilImage}
                         alt="Rental Mobil Jogja"
@@ -31,7 +31,7 @@ const Bersiaplah = () => {
                 {/* =========================
                     CONTENT
                 ========================= */}
-                <div className="w-full text-center lg:w-1/2 lg:text-left">
+                <div className="w-full text-center lg:w-1/2 lg:text-left" data-aos="fade-left" data-aos-delay="350">
 
                     <h2
                         className="
