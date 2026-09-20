@@ -66,7 +66,7 @@ const MobilUnggulan = () => {
                     {mobil.map((item, index) => (
 
                         <div
-                            data-aos="fade-down" data-aos-delay={item.aosDelay}
+                            data-aos="fade-up" data-aos-delay={item.aosDelay}
                             key={index}
                             className="
                                 w-full
