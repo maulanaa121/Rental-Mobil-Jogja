@@ -65,7 +65,7 @@ const HeroFAQ = () => {
                     text-center
                 "
             >
-                <h1
+                <h1 data-aos = "fade-down" data-aos-delay="250"
                     className="
                         max-w-[850px]
                         text-3xl
