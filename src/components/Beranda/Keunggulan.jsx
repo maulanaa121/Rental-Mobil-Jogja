@@ -12,42 +12,36 @@ const Keunggulan = () => {
         icon: ArmadaIcon,
         title: "Armada Terawat",
         description: "Seluruh kendaraan selalu menjalani perawatan rutin, bersih, dan siap digunakan demi memberikan kenyamanan selama perjalanan.",
-        aosDelay : 300
     },
     {
         icon: HargaIcon,
         title: "Harga Transparan",
         description:
             "Nikmati tarif sewa yang jelas tanpa biaya tersembunyi, sehingga Anda dapat menyewa mobil dengan lebih tenang.",
-        aosDelay : 400
     },
     {
         icon: BookingIcon,
         title: "Booking Mudah",
         description:
             "Proses pemesanan cepat dan praktis melalui website atau WhatsApp tanpa prosedur yang rumit.",
-        aosDelay : 500    
     },
     {
         icon: DriverIcon,
         title: "Driver Profesional",
         description:
             "Didukung pengemudi yang berpengalaman, ramah, dan memahami rute di Yogyakarta untuk perjalanan yang aman dan nyaman.",
-        aosDelay : 600
     },
     {
         icon: AntarJemputIcon,
         title: "Layanan Antar Jemput",
         description:
             "Mobil dapat diantar dan dijemput sesuai lokasi yang disepakati, termasuk hotel, bandara, stasiun, atau alamat tujuan Anda.",
-        aosDelay : 700
     },
     {
         icon: CustomerServiceIcon,
         title: "Layanan Pelanggan Responsif",
         description:
             "Tim customer service kami siap membantu menjawab pertanyaan dan memberikan solusi terbaik untuk setiap kebutuhan.",
-        aosDelay : 800
     },
 ];
 
@@ -72,7 +66,7 @@ const Keunggulan = () => {
 
                     {keunggulan.map((item, index) => (
                         <div
-                            data-aos="fade-right" data-aos-delay={item.aosDelay}
+                            data-aos="fade-right" data-aos-delay={350 + index * 150}
                             key={index}
                             className="
                                 flex
