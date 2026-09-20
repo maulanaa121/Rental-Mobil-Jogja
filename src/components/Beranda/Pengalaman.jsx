@@ -3,7 +3,7 @@ import PengalamanImage from "../../assets/pengalaman.png";
 const Pengalaman = () => {
     return (
         <section className="bg-white py-16 sm:py-20 lg:py-24">
-            <div
+            <div 
                 className="
                     mx-auto
                     grid
@@ -24,7 +24,7 @@ const Pengalaman = () => {
                 {/* =========================
                     TEXT
                 ========================= */}
-                <div className="max-w-[420px]">
+                <div data-aos="fade-up" data-aos-delay="250" className="max-w-[420px]">
                     <h2
                         className="
                             text-xl
@@ -81,7 +81,7 @@ const Pengalaman = () => {
                 {/* =========================
                     IMAGE
                 ========================= */}
-                <div className="w-full">
+                <div data-aos="fade-down" data-aos-delay="350" className="w-full">
                     <img
                         src={PengalamanImage}
                         alt="Pilihan mobil rental Yogyakarta"
