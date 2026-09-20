@@ -15,6 +15,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
+            aosDelay:300
         },
         {
             image: Mobil2,
@@ -22,6 +23,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
+            aosDelay:400
         },
         {
             image: Mobil3,
@@ -29,6 +31,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
+            aosDelay:500
         },
     ];
 
@@ -40,13 +43,13 @@ const MobilUnggulan = () => {
                 {/* =========================
                     TITLE
                 ========================= */}
-                <div className="text-center">
+                <div className="text-center" >
 
-                    <h2 className="text-2xl font-bold uppercase text-[#1769AA] sm:text-3xl">
+                    <h2 data-aos="fade-down" data-aos-delay="150" className="text-2xl font-bold uppercase text-[#1769AA] sm:text-3xl">
                         Mobil Unggulan
                     </h2>
 
-                    <p className="mx-auto mt-2 max-w-[700px] text-xs leading-5 text-gray-700 sm:text-sm">
+                    <p data-aos="fade-up" data-aos-delay="200" className="mx-auto mt-2 max-w-[700px] text-xs leading-5 text-gray-700 sm:text-sm">
                         Pilih armada terbaik kami yang selalu terawat,
                         nyaman, dan siap menemani setiap perjalanan Anda
                         di Yogyakarta.
@@ -63,6 +66,7 @@ const MobilUnggulan = () => {
                     {mobil.map((item, index) => (
 
                         <div
+                            data-aos="fade-down" data-aos-delay={item.aosDelay}
                             key={index}
                             className="
                                 w-full
