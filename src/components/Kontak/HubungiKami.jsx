@@ -29,7 +29,7 @@ const HubungiKami = () => {
                     "
                 >
                     {/* LABEL */}
-                    <p
+                    <p data-aos = "fade-right" data-aos-delay="250"
                         className="
                             text-lg
                             font-medium
@@ -40,7 +40,7 @@ const HubungiKami = () => {
                     </p>
 
                     {/* TITLE */}
-                    <h2
+                    <h2 data-aos = "fade-right" data-aos-delay="350"
                         className="
                             mt-[-2px]
                             text-3xl
@@ -54,7 +54,7 @@ const HubungiKami = () => {
                     </h2>
 
                     {/* DESCRIPTION */}
-                    <p
+                    <p data-aos = "fade-right" data-aos-delay="450"
                         className="
                             mt-3
                             max-w-[430px]
@@ -72,7 +72,7 @@ const HubungiKami = () => {
                     {/* =========================
                         ALAMAT
                     ========================= */}
-                    <div className="mt-5 flex gap-3">
+                    <div data-aos = "fade-right" data-aos-delay="550" className="mt-5 flex gap-3">
                         <div className="mt-0.5 shrink-0">
                             <svg
                                 className="h-5 w-5 text-gray-900"
@@ -118,7 +118,7 @@ const HubungiKami = () => {
                     {/* =========================
                         WHATSAPP
                     ========================= */}
-                    <div className="mt-5 flex gap-3">
+                    <div className="mt-5 flex gap-3" data-aos = "fade-right" data-aos-delay="550">
                         <div className="mt-0.5 shrink-0">
                             <svg
                                 className="h-5 w-5 text-gray-900"
@@ -182,7 +182,7 @@ const HubungiKami = () => {
                     {/* =========================
                         TELEPON
                     ========================= */}
-                    <div className="mt-5 flex gap-3">
+                    <div className="mt-5 flex gap-3" data-aos = "fade-right" data-aos-delay="550">
                         <div className="mt-0.5 shrink-0">
                             <svg
                                 className="h-5 w-5 text-gray-900"
@@ -223,7 +223,7 @@ const HubungiKami = () => {
                     {/* =========================
                         EMAIL
                     ========================= */}
-                    <div className="mt-5 flex gap-3">
+                    <div className="mt-5 flex gap-3" data-aos = "fade-right" data-aos-delay="550">
                         <div className="mt-0.5 shrink-0">
                             <svg
                                 className="h-5 w-5 text-gray-900"
