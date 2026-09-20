@@ -273,7 +273,7 @@ const HubungiKami = () => {
                 {/* =========================
                     MAP
                 ========================= */}
-                <div
+                <div data-aos = "fade-zoom-out" data-aos-delay="350"
                     className="
                         relative
                         min-h-[350px]
@@ -282,7 +282,7 @@ const HubungiKami = () => {
                         lg:min-h-full
                     "
                 >
-                    <iframe
+                    <iframe 
                         title="Lokasi Rental Mobil"
                         src="https://www.google.com/maps?q=Alun-Alun%20Yogyakarta&output=embed"
                         className="
