@@ -10,7 +10,7 @@ const VisiMisi = () => {
                 {/* =========================
                     IMAGE
                 ========================= */}
-                <div className="w-full lg:w-[42%]">
+                <div className="w-full lg:w-[42%]" data-aos = "fade-right" data-aos-delay="250">
                     <div className="overflow-hidden">
                         <img
                             src={VisiMisiImage}
@@ -35,7 +35,7 @@ const VisiMisi = () => {
                 <div className="flex w-full flex-col gap-2 sm:gap-3 lg:w-[58%]">
 
                     {/* VISI */}
-                    <div
+                    <div data-aos = "fade-right" data-aos-delay="350"
                         className="
                             bg-[#2E6FA3]
                             px-6
@@ -63,7 +63,7 @@ const VisiMisi = () => {
 
 
                     {/* MISI */}
-                    <div
+                    <div data-aos = "fade-right" data-aos-delay="450"
                         className="
                             bg-[#2E6FA3]
                             px-6
