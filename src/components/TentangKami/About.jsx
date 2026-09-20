@@ -15,13 +15,13 @@ const About = () => {
                 ========================= */}
                 <div className="w-full lg:w-[45%]">
 
-                    <h2 className="max-w-[350px] text-3xl font-bold uppercase leading-[1.15] text-[#1769AA] sm:text-4xl">
+                    <h2 data-aos = "fade-right" data-aos-delay="250" className="max-w-[350px] text-3xl font-bold uppercase leading-[1.15] text-[#1769AA] sm:text-4xl">
                         Tentang Rental
                         <br />
                         Mobil Jogja
                     </h2>
 
-                    <p className="mt-5 max-w-[500px] text-sm leading-6 text-gray-700 sm:text-[15px]">
+                    <p data-aos = "fade-right" data-aos-delay="350" className="mt-5 max-w-[500px] text-sm leading-6 text-gray-700 sm:text-[15px]">
                         Kami adalah penyedia jasa rental mobil di Yogyakarta
                         yang berkomitmen menghadirkan layanan transportasi yang
                         aman, nyaman, dan terpercaya. Dengan armada yang selalu
@@ -30,7 +30,7 @@ const About = () => {
                         keperluan pribadi.
                     </p>
 
-                    <p className="mt-3 max-w-[500px] text-sm leading-6 text-gray-700 sm:text-[15px]">
+                    <p data-aos = "fade-right" data-aos-delay="450" className="mt-3 max-w-[500px] text-sm leading-6 text-gray-700 sm:text-[15px]">
                         Kepuasan pelanggan menjadi prioritas utama dalam setiap
                         layanan yang kami berikan.
                     </p>
@@ -48,7 +48,7 @@ const About = () => {
 
                         {/* Image 1 */}
                         <div className="overflow-hidden">
-                            <img
+                            <img data-aos = "fade-zoom-in" data-aos-delay="250"
                                 src={AboutImage1}
                                 alt="Rental Mobil Jogja"
                                 className="h-[140px] w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-[175px] lg:h-[190px]"
@@ -57,7 +57,7 @@ const About = () => {
 
                         {/* Image 2 */}
                         <div className="overflow-hidden">
-                            <img
+                            <img data-aos = "fade-zoom-in" data-aos-delay="350"
                                 src={AboutImage2}
                                 alt="Armada Rental Mobil Jogja"
                                 className="h-[200px] w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-[250px] lg:h-[285px]"
@@ -72,7 +72,7 @@ const About = () => {
 
                         {/* Image 3 - tinggi */}
                         <div className="overflow-hidden">
-                            <img
+                            <img data-aos = "fade-zoom-in" data-aos-delay="450"
                                 src={AboutImage3}
                                 alt="Rental Mobil Jogja"
                                 className="h-[250px] w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-[310px] lg:h-[380px]"
@@ -81,7 +81,7 @@ const About = () => {
 
                         {/* Image 4 */}
                         <div className="overflow-hidden">
-                            <img
+                            <img data-aos = "fade-zoom-in" data-aos-delay="550"
                                 src={AboutImage4}
                                 alt="Armada Mobil"
                                 className="h-[90px] w-full object-cover transition-transform duration-500 hover:scale-105 sm:h-[115px] lg:h-[135px]"
