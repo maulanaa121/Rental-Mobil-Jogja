@@ -66,7 +66,7 @@ const HeroKontak = () => {
                     text-center
                 "
             >
-                <h1
+                <h1 data-aos = "fade-right" data-aos-delay="200"
                     className="
                         max-w-[850px]
                         text-3xl
