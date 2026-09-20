@@ -20,7 +20,7 @@ const HeroBeranda = () => {
 
     {/* Content */}
     <div className="relative z-10 flex h-full items-center justify-center px-5 pb-8 text-center sm:px-8">
-        <div className="mt-8 sm:mt-10">
+        <div className="mt-8 sm:mt-10" data-aos="fade-up" data-aos-delay="400">
 
             <h1 className="
                 text-3xl
