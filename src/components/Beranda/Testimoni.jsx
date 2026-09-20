@@ -7,21 +7,18 @@ const Testimoni = () => {
             time: "2 Minggu lalu",
             initial: "L",
             text: "Selalu memuaskan kalau rental mobil di Jogja. Sekaligus, mobilnya bagus, nyaman, bersih, fasilitas ok dan selalu up to date. Drivernya juga profesional.",
-            aosDelay : 150
         },
         {
             name: "Edward",
             time: "2 Minggu lalu",
             initial: "E",
             text: "Selalu memuaskan kalau rental mobil di Jogja. Sekaligus, mobilnya bagus, nyaman, bersih, fasilitas ok dan selalu up to date. Drivernya juga profesional.",
-            aosDelay : 250
         },
         {
             name: "Bella Swan",
             time: "2 Minggu lalu",
             initial: "B",
             text: "Selalu memuaskan kalau rental mobil di Jogja. Sekaligus, mobilnya bagus, nyaman, bersih, fasilitas ok dan selalu up to date. Drivernya juga profesional.",
-            aosDelay : 250
         },
     ];
 
@@ -118,7 +115,7 @@ const Testimoni = () => {
                     "
                 >
                     {testimonials.map((item, index) => (
-                        <div data-aos="fade-right" data-aos-delay={item.aosDelay}
+                        <div data-aos="fade-right" data-aos-delay={200 + index * 150}
                             key={index}
                             className="
                                 w-full
