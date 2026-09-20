@@ -15,7 +15,7 @@ const HeroTentangKami = () => {
             {/* Content */}
             <div className="relative z-10 mx-auto w-full max-w-5xl px-5 text-center sm:px-6 lg:px-8">
 
-                <h1
+                <h1 data-aos = "fade-right" data-aos-delay="200"
                     className="
                         text-3xl
                         font-bold
