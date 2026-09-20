@@ -15,7 +15,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
-            aosDelay:300
+          
         },
         {
             image: Mobil2,
@@ -23,7 +23,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
-            aosDelay:400
+        
         },
         {
             image: Mobil3,
@@ -31,7 +31,7 @@ const MobilUnggulan = () => {
             harian: "Rp 1.200.000 - Rp 1.300.000",
             supir: "Rp 1.500.000 - 1.800.000",
             bulanan: "Rp 23.000.000",
-            aosDelay:500
+         
         },
     ];
 
@@ -66,7 +66,7 @@ const MobilUnggulan = () => {
                     {mobil.map((item, index) => (
 
                         <div
-                            data-aos="fade-up" data-aos-delay={item.aosDelay}
+                            data-aos="fade-up" data-aos-delay={300 + index * 150}
                             key={index}
                             className="
                                 w-full
