@@ -16,6 +16,7 @@ const SectionDaftarMobil = () => {
             passengers: "2 Seat",
             transmission: "Manual",
             luggage: "Bagasi 2",
+            aosDelay:400
         },
         {
             image: Veloz,
@@ -75,7 +76,7 @@ const SectionDaftarMobil = () => {
                     HEADER
                 ========================= */}
                 <div className="text-center">
-                    <h2
+                    <h2 data-aos="fade-right" data-aos-delay="150"
                         className="
                             text-2xl
                             font-bold
@@ -87,7 +88,7 @@ const SectionDaftarMobil = () => {
                         Daftar Mobil
                     </h2>
 
-                    <p
+                    <p data-aos="fade-left" data-aos-delay="250"
                         className="
                             mx-auto
                             mt-2
@@ -120,7 +121,8 @@ const SectionDaftarMobil = () => {
                     "
                 >
                     {mobil.map((item, index) => (
-                        <div
+                        <div data-aos="fade-up"
+        data-aos-delay={400 + index * 150}
                             key={index}
                             className="
                                 overflow-hidden

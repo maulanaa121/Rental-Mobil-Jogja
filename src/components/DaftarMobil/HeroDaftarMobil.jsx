@@ -51,7 +51,7 @@ const HeroDaftarMobil = () => {
             />
 
             {/* CONTENT */}
-            <div
+            <div data-aos="fade-right" data-aos-delay="250"
                 className="
                     relative
                     z-10
