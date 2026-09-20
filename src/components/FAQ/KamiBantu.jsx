@@ -83,7 +83,7 @@ const KamiBantu = () => {
                     {/* TITLE */}
                     <div className="text-center">
 
-                        <h2
+                        <h2 data-aos = "fade-right" data-aos-delay="250"
                             className="
                                 text-2xl
                                 font-extrabold
@@ -96,7 +96,7 @@ const KamiBantu = () => {
                             Ada Yang Bisa Kami Bantu?
                         </h2>
 
-                        <p
+                        <p data-aos = "fade-right" data-aos-delay="350"
                             className="
                                 mx-auto
                                 mt-2
@@ -126,8 +126,9 @@ const KamiBantu = () => {
                             gap-2
                         "
                     >
-                        {categories.map((category) => (
+                        {categories.map((category,index) => (
                             <button
+                                data-aos = "fade-zoom-in" data-aos-delay={200 + index * 150}
                                 key={category}
                                 type="button"
                                 onClick={() => {
@@ -168,7 +169,7 @@ const KamiBantu = () => {
                             const isOpen = openIndex === index;
 
                             return (
-                                <div
+                                <div data-aos = "fade-zoom-in" data-aos-delay={200 + index * 200}
                                     key={`${faq.category}-${faq.question}`}
                                     className="
                                         overflow-hidden
@@ -276,7 +277,7 @@ const KamiBantu = () => {
                 {/* =================================
                     KAMI BANTU
                 ================================= */}
-                <div
+                <div data-aos = "fade-up" data-aos-delay="200"
                     className="
                         mx-auto
                         mt-10
