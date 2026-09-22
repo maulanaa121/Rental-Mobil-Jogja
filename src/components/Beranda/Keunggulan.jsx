@@ -39,7 +39,7 @@ const Keunggulan = () => {
     },
     {
         icon: CustomerServiceIcon,
-        title: "Layanan Pelanggan Responsif",
+        title: "Layanan Pelanggan Cepat",
         description:
             "Tim customer service kami siap membantu menjawab pertanyaan dan memberikan solusi terbaik untuk setiap kebutuhan.",
     },
