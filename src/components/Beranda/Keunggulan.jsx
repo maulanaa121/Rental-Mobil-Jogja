@@ -15,7 +15,7 @@ const Keunggulan = () => {
     },
     {
         icon: HargaIcon,
-        title: "Harga Transparan",
+        title: "Harga Terjangkau",
         description:
             "Nikmati tarif sewa yang jelas tanpa biaya tersembunyi, sehingga Anda dapat menyewa mobil dengan lebih tenang.",
     },
